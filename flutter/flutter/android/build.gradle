@@ -54,7 +54,7 @@ dependencies {
 //    implementation 'com.arthenica:ffmpeg-kit-https:6.0-2'
 //    FmpegKit has been officially retired.Place dependent libraries locally
 //    The Maven configuration is immutable and currently not required; it’s retained solely as a precaution.
-    implementation files('./libs/ffmpeg-kit-https-6.0-2.aar')
+    compileOnly files('./libs/ffmpeg-kit-https-6.0-2.aar')
 
 //start:    smart-exception-java
     implementation files('./libs/smart-exception-java-0.2.1.jar')
